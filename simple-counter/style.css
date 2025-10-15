@@ -18,7 +18,7 @@ body {
   .counter {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;index.html
     gap: 1rem;
     font-size: 2rem;
   }
@@ -31,5 +31,7 @@ body {
 
   .reset {
     margin-top: 1rem;
+    background-color: #ff4d4d;
+    color: white;
   }
   
