@@ -18,7 +18,7 @@ body {
   .counter {
     display: flex;
     align-items: center;
-    justify-content: center;index.html
+    justify-content: center;
     gap: 1rem;
     font-size: 2rem;
   }
