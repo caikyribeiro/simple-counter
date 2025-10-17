@@ -16,8 +16,12 @@ decreaseBtn.addEventListener('click', () => {
 });
 
 resetBtn.addEventListener('click', () => {
+  if (count === 0) {
+    alert('Counter is already at zero');
+  } else {
   count = 0;
   updateDisplay();
+  }
 });
 
 function updateDisplay() {
